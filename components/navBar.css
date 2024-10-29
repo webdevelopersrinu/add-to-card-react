@@ -1,0 +1,28 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6px 24px;
+    background-color: rgb(251, 0, 255);
+    color: #fff;
+}
+.nav-acrd{
+    padding: 12px 24px;
+    font-size: 21px;
+    position: relative;
+}
+.card-count{
+    position: absolute;
+    top: -5px;
+    right: -9px;
+    background-color: rgb(255, 0, 144);
+    padding: 4px 8px;
+    border-radius: 50%;
+}
+.nav-card-text, .nav-logo a {
+    color: #fff;
+}
+
+a{
+    text-decoration: none;
+}

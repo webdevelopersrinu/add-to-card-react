@@ -1,0 +1,39 @@
+.producte-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    margin: 12px 24px;
+    border-radius: 6px;
+    padding: 4px 8px;
+}
+.producte-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.producte-title{
+    width: 45%;
+    text-wrap: wrap;
+}
+.quantity{
+    padding: 4px 8px;
+    font-size: 21px;
+    display: flex;
+    align-items: center;
+}
+.quantity button{
+    padding: 4px 6px;
+    margin: 2px 4px;
+}
+.remove-to-card{
+    font-size: 21px;
+    padding: 4px 8px;
+    text-transform: capitalize;
+    margin:8px 4px ;
+    border-radius: 7px;
+}
+.card-page{
+    margin: 6px 12px;
+}
